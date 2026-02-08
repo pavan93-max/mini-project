@@ -1,0 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+mini/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Data files (large files - keep structure but not data)
+# Raw data files - NEVER commit these
+data/raw/**/*.csv
+data/raw/**/*.CSV
+data/raw/*.csv
+data/raw/*.CSV
+*.csv
+*.CSV
+# But allow processed data structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+# Processed data files
+data/processed/*.csv
+data/processed/*.csv.gz
+data/processed/*.json
+
+# Results and outputs
+results/
+!results/.gitkeep
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.gif
+
+# Model checkpoints and saved models
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.pkl
+*.pickle
+checkpoints/
+models/saved/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+*.out
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+
+# OS files
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+# Project specific
+*.csv.gz
+feature_mapping.json
+scada_cleaned.csv
+scada_cleaned.csv.gz
+
